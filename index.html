@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="header">YOUR...BIRTH</div>
+    <div class="container">
+      <form>
+        <div class="form_container">
+          <div class="block">
+            <label for="day">
+              D A Y
+            </label>
+            <input type="number" id="day" placeholder="DD">
+            <small></small>
+          </div>
+          <div class="block">
+            <label for="day">
+              M O N T H
+            </label>
+            <input type="number" id="month" placeholder="MM">
+            <small></small>
+          </div>
+          <div class="block">
+            <label for="day">
+              Y E A R
+            </label>
+            <input type="number" id="year" placeholder="YYYY">
+            <small></small>
+          </div>
+        </div>
+        <div class="submit_block">
+          <hr>
+          <button onclick="btnch_bg()" id="btnclick" type="submit" class="submit_btn"><img
+              src="./assets/images/icon-arrow.svg" alt="icon"></button>
+        </div>
+      </form>
+      <div class="output">
+        <h1><span id="YY">- -</span>years</h1>
+        <h1><span id="MM">- -</span>months</h1>
+        <h1><span id="DD">- -</span>days</h1>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
